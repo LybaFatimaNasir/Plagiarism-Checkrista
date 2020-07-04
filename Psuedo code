@@ -6,7 +6,7 @@ open file1
 text1=read file1
 open file2
 text2=read file2
-.....
+..... 
 # Iteratable object that are lines in our document dealt as  list
 # We need to convert them into strings.To deal with them as single 
 # concatenated string.and further performing comparison
@@ -15,3 +15,11 @@ str1=join text1
 str2=join text2
 ....
 #
+#to split the whole string into sentences
+sent_text1=str1.split('.') 
+sent_text2=str2.split('.') 
+
+for z=0 to sent_text1 
+ for y=0 to sent_text2 
+  if z==y
+   Final_list.append(z) 
