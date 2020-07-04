@@ -1,6 +1,6 @@
 # Plagiarism-Checkrista
-##Plagiarism checking tool 
-###Psuedo Code
+## Plagiarism checking tool 
+### Psuedo Code
 ```
 function printdiff(C[0...m,0...n],x[1...m],Y[1...n],i,j)
 if i<0 and j<0
