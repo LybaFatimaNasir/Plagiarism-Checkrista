@@ -1,0 +1,9 @@
+#PLAGIARISM CHECKRISTA
+##Plagiarism Checker Tool
+###Psuedo code
+```
+open file1
+text1=file1.read
+open file2
+text2=file2.read
+```
