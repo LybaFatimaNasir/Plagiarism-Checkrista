@@ -1,9 +1,17 @@
-#PLAGIARISM CHECKRISTA
-##Plagiarism Checker Tool
-###Psuedo code
-```
+PSUEDO CODE FOR PLAGIRISM CHECKRISTA 
+
+# for opening the files that are uploaded to be checked
+.....
 open file1
-text1=file1.read
+text1=read file1
 open file2
-text2=file2.read
-```
+text2=read file2
+.....
+# Iteratable object that are lines in our document dealt as  list
+# We need to convert them into strings.To deal with them as single 
+# concatenated string.and further performing comparison
+....
+str1=join text1
+str2=join text2
+....
+#
