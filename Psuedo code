@@ -1,25 +1,25 @@
 PSUEDO CODE FOR PLAGIRISM CHECKRISTA 
+ This code checks similarity between two files given ny the user. 
+ Iteratable object that are lines in our document dealt as  list
+ We need to convert them into strings.To deal with them as single 
+ concatenated string.and further performing comparison .
+ Split function splits the string at the separator and returns a string
+ to split the whole string into sentences determined by '.' (the sepaartor).
+ Then a simple nested for loop that is checking similartity of first file with second file and appending in first file the similar content
+ the final arrray storing all the similar content lines 
 
-# for opening the files that are uploaded to be checked
-.....
+
 open file1
 text1=read file1
 open file2
 text2=read file2
-..... 
-# Iteratable object that are lines in our document dealt as  list
-# We need to convert them into strings.To deal with them as single 
-# concatenated string.and further performing comparison
-....
 str1=join text1
 str2=join text2
-....
-#
-#to split the whole string into sentences
-sent_text1=str1 split('.') 
-sent_text2=str2 split('.') 
-
+sent_text1=str1.split('.') 
+sent_text2=str2.split('.') 
+Final_list=[]              
 for z=0 to sent_text1 
  for y=0 to sent_text2 
   if z==y
-   Final_list.append(z) 
+   Final_list.append(z)
+   
