@@ -39,13 +39,12 @@ function lcs(X[1..m], Y[1..n])
  return backtrack(C, X, Y,len(X-1),len(X,-1)) 
  
 function lcslen(X[1..m], Y[1..n]) 
- C = [[for i =0 to (len(Y) + 1)] 
-        for j= 0 to (len(X+ 1)] 
-           for i, X[i] to enumerate(X) 
-              for j, Y[i] to enumerate(Y) 
-                  if X[I] == Y[j] 
-                    C[i][j] = 1 + C[i-1][j-1] 
-                  else 
-                    C[i][j] = max(C[i][j-1], C[i-1][j]) 
+ C = [[for i =0 to (len(Y) + 1)]  for j= 0 to (len(X+ 1)] 
+  for i, X[i] to enumerate(X) 
+   for j, Y[i] to enumerate(Y) 
+    if X[I] == Y[j] 
+     C[i][j] = 1 + C[i-1][j-1] 
+    else 
+     C[i][j] = max(C[i][j-1], C[i-1][j]) 
  return C 
  ```
