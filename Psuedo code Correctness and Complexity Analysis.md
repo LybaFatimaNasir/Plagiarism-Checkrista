@@ -57,3 +57,14 @@ C = lcslen(X,Y)-------------1
 return Checker(C,X,Y,len(X)-1,len(Y)-1)---------------1 
 
 T(n)=2 
+```
+***1***Worst case time complexity: ***O(n*m)***  
+
+***2***Average case time complexity: ***O(n*m)*** 
+
+***3***Best case time complexity: ***O(n*m)*** 
+
+>Since we are using two for loops for both the strings ,
+therefore the time complexity of finding the longest common subsequence using dynamic programming approach is ***O(n * m)***
+where n and m are the lengths of the strings.
+Since this implemetation involves only n rows and m columns so complexity becomes ***O(n * m)***. 
