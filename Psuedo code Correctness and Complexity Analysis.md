@@ -10,13 +10,13 @@ it gives the maximum length
 C[0, j] = C[i, 0] = 0. Correct because empty sequence has no LCS.
 
  ### INDUCTIVE STEP:
--Assume IH is true.
--When computing C[i, j], the transition considers 3 cases.
+- Assume IH is true.
+    When computing C[i, j], the transition considers 3 cases.
   - If x[i] = y[j], then c[k] = x[i] = y[j] and C[k]−1 is an LCS of X[i−1] and Y[j−1]. 
   - If x[i] != y[j], then c[k] != x[i] implies that C is an LCS of X[i−1] and Y. 
   - If x[i] != y[j], then C[k] != y[j] implies that C is an LCS of X and Y[j−1].
--By IH, C[i − 1, j − 1], C[i − 1, j], m[i, j − 1] are computed correctly. 
--Hence, the algorithm makes the correct decision and C[X, Y] is computed correctly
+- By IH, C[i − 1, j − 1], C[i − 1, j], m[i, j − 1] are computed correctly. 
+- Hence, the algorithm makes the correct decision and C[X, Y] is computed correctly
 
 
 
