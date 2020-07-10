@@ -1,4 +1,4 @@
-## Correctness
+# Correctness
 
 ## CHECKER AND LCS
 ### INDUCTIVE HYPOTHESIS: 
@@ -20,7 +20,7 @@ C[0, j] = C[i, 0] = 0. Correct because empty sequence has no LCS.
 
 
 
-## Complexity Analysis
+# Complexity Analysis
 ```
 function lcslen(X[1..m], Y[1..n]) 
 C = [[for i =0 to (len(Y) + 1)] for j= 0 to (len(X+ 1)]--nm 
