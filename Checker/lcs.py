@@ -1,9 +1,9 @@
 
 def lcslen(x, y):
+    
     """Build a matrix of LCS length.
     This matrix will be used later to backtrack the real LCS.
     """
-
     # This is our matrix comprised of list of lists.
     # We allocate extra row and column with zeroes for the base case of empty
     # sequence. Extra row and column is appended to the end and exploit
@@ -18,8 +18,8 @@ def lcslen(x, y):
                 c[i][j] = max(c[i][j-1], c[i-1][j])
     return c
 
-def backtrack(c, x, y, i, j):
-    """Backtrack the LCS length matrix to get the actual LCS"""
+def backtrack(c, x, y, i, j): #taking arrays to find the subsequence
+    """ Backtrack the LCS length matrix to get the actual LCS """
     if i == -1 or j == -1:
         return ""
     elif x[i] == y[j]:
