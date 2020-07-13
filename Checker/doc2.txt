@@ -1,0 +1,5 @@
+This a very reliable language so far.We are required to design a plagiarism checker tool.It will take two English files and check them for plagiarism by comparing content in those two files.Highlighting similar content from both files.In this user will enter two different files or URls of two different files or multiple files.
+It will be a web development tool designed in the Django framework using Python.
+This a very reliable language so far.Django is useful for writing APIs ,its main purpose is as a framework for creating full stack websites.Django is 100% Python.So it makes it clear we are going to implement our algorithm using Python.
+Algorithm that will be used to implement this tool will be the Longest Common Subsequence
+(LCS).
