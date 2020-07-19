@@ -1,10 +1,10 @@
 file1 = open("doc1.txt", "r")
 text1 = file1.read()
-text1
+
 
 file2 = open("doc2.txt", "r")
 text2 = file2.read()
-text2
+
 
 str1 = ''.join(text1)
 str2 = ''.join(text2)

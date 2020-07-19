@@ -35,12 +35,16 @@ def usage():
     print("Usage: {} <file1> <file2>".format(sys.argv[0]))
 
 def main():
+    print("if condition outside")
+
     if len(sys.argv) != 3:
         usage()
         sys.exit(1)
-
+        print("if condition inside")
     with open(sys.argv[1], 'r') as f1, open(sys.argv[2], 'r') as f2:
-        diff(f1.readlines(), f2.readlines())
+        res=diff(f1.readlines(), f2.readlines())
+        print("checking result : "+res)
+
 
 if __name__ == '__main__':
     main()
