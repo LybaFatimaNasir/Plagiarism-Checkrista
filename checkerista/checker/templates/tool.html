@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
-  <h1>  PLAGIARISM CHECKERISTA </h1>
+  <link rel="stylesheet"type="text/css" href="{%static 'css/main.css'%}"/>
+
 </head>
 <body>
-
+<h1>  PLAGIARISM CHECKERISTA </h1>
 <h2> HI WELCOME TO CHECKERISTA </h2>
 <h3> Enter text here </h3>
 
 <form action="/addtext/" method="post"> {% csrf_token %}
     <input type="text" name="Content"/>
       <input type="submit" name="ADD"/>
-</form>      
+</form>
 
 
 <!-- <h3> Enter url here </h3>

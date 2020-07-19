@@ -1,0 +1,53 @@
+body {
+    background-color: #755B89,
+}
+h1 {
+    position: absolute;
+width: 347px;
+height: 68px;
+
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+}
+h2
+{
+position: absolute;
+width: 224px;
+height: 16px;
+
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+h3
+{
+position: absolute;
+width: 86px;
+height: 13px;
+
+    font-family: Roboto, sans-serif;
+font-style: italic;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
