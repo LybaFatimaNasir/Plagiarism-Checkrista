@@ -1,0 +1,14 @@
+<h1> HI WELCOME TO CHECKERISTA </h1>
+<h2> Enter text here </h2>
+
+<form action="/addtext/" method="post"> {% csrf_token %}
+    <input type="text" name="Content"/>
+      <input type="submit" name="ADD"/>
+</form>      
+
+
+<h2> Enter url here </h2>
+<form action="/addtext/" method="post"> {% csrf_token %}
+    <input type="url" name="Content"/>
+      <input type="submit" name="ADD"/>
+</form> 
