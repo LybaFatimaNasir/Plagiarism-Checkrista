@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\BREARAH MUSLIM\Desktop\checkerista"
+VIRTUAL_ENV="C:\Users\lybaf\OneDrive\Documents\GitHub\CS311S20PID02\checkerista\.env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(checkerista) " != x ] ; then
-	PS1="(checkerista) ${PS1:-}"
+    if [ "x(.env) " != x ] ; then
+	PS1="(.env) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
