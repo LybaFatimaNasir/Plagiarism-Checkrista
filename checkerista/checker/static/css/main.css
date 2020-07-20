@@ -96,7 +96,7 @@ color: #000000;
 }
 
 
-input[type = submit] {
+.box input[type = submit] {
     background-color: #FFFFFF;;
     border: none;
     text-decoration: none;
@@ -108,7 +108,7 @@ input[type = submit] {
     border-radius: 30px;
     cursor: pointer;
  }
-.box .one label {
+.box  label {
     position: absolute;
     top:0;
     left: 0;
