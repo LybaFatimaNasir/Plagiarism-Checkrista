@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\lybaf\OneDrive\Documents\GitHub\CS311S20PID02\checkerista\mainchecker\db.sqlite3</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="db [2]" uuid="c6684940-5a65-48e2-ad2c-659164b4ce80">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\lybaf\OneDrive\Documents\GitHub\CS311S20PID02\checkerista\checker\db.sqlite3</jdbc-url>
+    </data-source>
   </component>
 </project>

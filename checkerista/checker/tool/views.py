@@ -11,6 +11,6 @@ def addText(request):
     c = request.POST['Content']
     newItem= text(Content=c)
     newItem.save()
-    return HttpResponseRedirect('/tool/')   
+    return HttpResponseRedirect('/tool/')
 
 # Create your views here.
