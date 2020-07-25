@@ -13,4 +13,16 @@ def addText(request):
     newItem.save()
     return HttpResponseRedirect('/tool/')
 
+
+def getData(request): 
+    # dictionary for initial data with  
+    # field names as keys 
+    context ={} 
+  
+    
+    context["dataset"] = text.objects.all() 
+    
+          
+    return render(request, "tool.html", context)     
+
 # Create your views here.
