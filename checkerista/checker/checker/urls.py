@@ -19,9 +19,12 @@ from django.urls import path
 from django.urls import include, path
 from tool.views import addText
 
+
+
 urlpatterns = [
     path('addtext/', addText),
     path('tool/', include('tool.urls')),
     path('admin/', admin.site.urls),
+    path('result/', include('result.urls')),
 ]
 

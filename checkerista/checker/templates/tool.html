@@ -13,31 +13,32 @@
 <body>
 
 <div class="header">
-  <h1>  PLAGIARISM CHECKERISTA </h1>
+    <h1> PLAGIARISM CHECKERISTA </h1>
 </div>
 
 <div class="header2">
-<h2> Drop the text and catch the theif ! </h2><br>
+    <h2> Drop the text and catch the theif ! </h2><br>
 </div>
 
 
-<form action="/addtext/" method="post"> {% csrf_token %}
+<form action="{% url addtext  %} " method="post"> {% csrf_token %}
 
 
-  <div class="box">
-   
-      
+    <div class="box">
+
+
         <label> Let us try</label>
-        <input type="text" placeholder="enter your text here" name =" Content"/>
-        <input type ="text"  placeholder="enter your text here" name = "Cotent"/><br>
+        <input type="text" placeholder="enter your text here" name=" Content"/>
+        <!--<input type="text" placeholder="enter your text here" name="Content"/><br>
 
-       <!-- <input type="url"  placeholder="insert url" name="Content"/>
-        <input type="url"  placeholder="insert url" name="Content"/><br>-->
-         <input type="submit" name="ADD"/>
-      <a href = "/result">Result Page</a>
-   </div>
+        <input type="url"  placeholder="insert url" name="Content"/>
+         <input type="url"  placeholder="insert url" name="Content"/><br>-->
+        <input type="submit" name="ADD"/>
+        <a href="/result">Result Page</a>
+    </div>
 
 
+</form>
 </body>
 
 </html>
