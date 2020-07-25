@@ -21,17 +21,17 @@
 </div>
 
 
-<form action="/addtext/" method="post"> {% csrf_token %}
+<form action="/addtext/" method="post" enctype="multipart/form-data"> {% csrf_token %}
 
 
   <div class="box">
    
       
         <label> Let us try</label>
-        <input type="text" placeholder="enter your text here" name =" Content"/>
+        <input type="text" autocomplete="off" placeholder="enter your text here" name =" Content"/>
        <!-- <input type ="text"  placeholder="enter your text here" name = "Cotent"/><br> ->
 
-       <!-- <input type="url"  placeholder="insert url" name="Content"/>
+       <!- <input type="url"  placeholder="insert url" name="Content"/>
         <input type="url"  placeholder="insert url" name="Content"/><br>-->
          <input type="submit" name="ADD"/>
       <a href = "/result">Result Page</a>
