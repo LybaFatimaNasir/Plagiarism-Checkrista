@@ -12,24 +12,25 @@ def result(request):
     return render(request,'result.html')
 
 def addText(request):
-    c = request.POST['Content']
-    newItem= text(Content=c)
-    newItem.save()
-    return HttpResponseRedirect('/tool/')
+    try:
+        newItem =  text(Content=request.POST['Content'])
+        newItem.save()
+    except KeyError:
+        newItem = "Guest"
+    return HttpResponseRedirect('/tool/' )
 
-#def results(request,text_id):
-    #response = " Oh there is the result %s."
-    #return HttpResponse(response % text_id)
-
-def getData(request): 
-    # dictionary for initial data with  
-    # field names as keys 
-    context ={} 
+def addText(request):
+    try:
+        newItem =  text(Content=request.POST['Content'])
+        newItem.save()
+    except KeyError:
+        newItem = "Guest"
+    return HttpResponseRedirect('/tool/' )
   
     
-    context["dataset"] = text.objects.all() 
+   # context["dataset"] = text.objects.all() 
     
           
-    return render(request, "tool.html", context)     
+   # return render(request, "tool.html", context)     
 
 # Create your views here.

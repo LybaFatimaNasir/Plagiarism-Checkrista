@@ -22,6 +22,7 @@ from tool.views import addText
 
 
 urlpatterns = [
+
     path('addtext/', addText),
     path('tool/', include('tool.urls')),
     path('admin/', admin.site.urls),

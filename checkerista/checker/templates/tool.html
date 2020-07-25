@@ -2,43 +2,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet"type="text/css" href="{%static 'css/main.css'%}"/>
     <title> PLAGIARISM CHECKRISTA</title>
+    <link rel="stylesheet"type="text/css" href="{%static 'css/main.css'%}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 </head>
 
 <body>
 
 <div class="header">
-    <h1> PLAGIARISM CHECKERISTA </h1>
+  <h1>  PLAGIARISM CHECKERISTA </h1>
 </div>
 
 <div class="header2">
-    <h2> Drop the text and catch the theif ! </h2><br>
+<h2> Drop the text and catch the theif ! </h2><br>
 </div>
 
 
-<form action="{% url addtext  %} " method="post"> {% csrf_token %}
+<form action="/addtext/" method="post" enctype="multipart/form-data"> {% csrf_token %}
 
 
-    <div class="box">
+  <div class="box">
 
 
         <label> Let us try</label>
-        <input type="text" placeholder="enter your text here" name=" Content"/>
-        <!--<input type="text" placeholder="enter your text here" name="Content"/><br>
+        <input type="text" autocomplete="off" placeholder="enter your text here" name =" Content"/>
+       <!-- <input type ="text"  placeholder="enter your text here" name = "Cotent"/><br> ->
+       <!- <input type="url"  placeholder="insert url" name="Content"/>
+        <input type="url"  placeholder="insert url" name="Content"/><br>-->
+         <input type="submit" name="ADD"/>
+      <a href = "/result">Result Page</a>
+   </div>
 
-        <input type="url"  placeholder="insert url" name="Content"/>
-         <input type="url"  placeholder="insert url" name="Content"/><br>-->
-        <input type="submit" name="ADD"/>
-        <a href="/result">Result Page</a>
-    </div>
 
-
-</form>
 </body>
 
 </html>
@@ -46,8 +44,6 @@
        <!-- action="/addtext/" method="post"> {% csrf_token %}
     <input type="text" name="Content"/>
     <input type="submit" name="ADD"/>
-
-
 <div class="stars"></div>
 -->
 <!-- <h3> Enter url here </h3>
@@ -55,5 +51,3 @@
     <input type="url" name="Content"/>
       <input type="submit" name="ADD"/>
 </form> -->
-
-
