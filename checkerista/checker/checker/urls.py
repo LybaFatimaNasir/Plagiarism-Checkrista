@@ -26,6 +26,6 @@ urlpatterns = [
     path('addtext/', addText),
     path('tool/', include('tool.urls')),
     path('admin/', admin.site.urls),
-    path('result/', include('result.urls')),
+    path('result/', include('tool.urls')),
 ]
 

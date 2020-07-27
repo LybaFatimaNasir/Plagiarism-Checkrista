@@ -3,13 +3,14 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .models import text
 
-
+def results(request):
+    return render(request,'result.html' )
 
 def index(request):
     return render(request,'tool.html')
 
-def result(request):
-    return render(request,'result.html')
+#def result(request):
+    #return render(request,'result.html')
 
 def addText(request):
     try:
