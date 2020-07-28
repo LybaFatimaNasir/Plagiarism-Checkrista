@@ -9,28 +9,24 @@ body {
   background: linear-gradient(#755b89, #243b55, #0b2038);
 }
 
-.header {
-  padding: 10px;
-  text-align: center;
-  background: transparent;
-  color: white;
-  font-size: 15px;
-}
-
-.header2 {
+.header h1 {
+  top: 3%;
   position: absolute;
   width: 491px;
-  height: 16px;
+  height: 20px;
   color: white;
-  padding: 10px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  display: flex;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
   align-items: center;
+  background: transparent;
+  margin-right: 500px;
+  margin-left: 400px;
 }
+
 h3 {
   position: absolute;
   width: 86px;
@@ -49,11 +45,12 @@ h3 {
 
 .box {
   position: absolute;
-  top: 55%;
-  left: 50%;
-  width: 1000px;
+  top: 50%;
+  left: 30%;
+  width: 700px;
   height: 400px;
   padding: 40px;
+  align-items: left;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
@@ -63,16 +60,16 @@ h3 {
 }
 
 .box input[type="text"] {
-  position: relative;
-  padding: 30px;
-  width: 650px;
-  height: 200px;
+  position: absolute;
+  padding: 0px;
+  width: 620px;
+  height: 270px;
   border-radius: 20px;
   text-align: center;
-  align-items: center;
-  margin-right: 100px;
-  margin-left: 100px;
-  display: inline-block;
+  align-items: left;
+  /*margin-right: 100px;
+  margin-left: 10px;
+  display: inline-block;*/
   background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
     linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
     linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), #ffffff;
@@ -95,11 +92,11 @@ h3 {
   border: none;
   text-decoration: none;
   color: #243b55;
-  padding: 20px 30px;
+  padding: 10px 20px;
   /*noinspection CssInvalidPropertyValue*/
-  margin-top: 20px;
+  margin-top: 300px;
   margin-right: 430px;
-  margin-left: 410px;
+  margin-left: 300px;
   border-radius: 30px;
   cursor: pointer;
 }
@@ -107,7 +104,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding: 10px;
   font-size: 16px;
   color: #fff;
   pointer-events: none;
@@ -127,6 +124,20 @@ h3 {
   margin-top: 40px;
   letter-spacing: 4px;
 }
+
+
+.svg *{
+
+  margin:0;
+  margin-right: 10px;
+  padding :0px;
+  box-sizing: border-box;
+  text-align: right;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 1000px;
+}
+
 
 @keyframes move-twink-back {
   from {
@@ -178,6 +189,8 @@ h3 {
   height: 100%;
   display: block;
 }
+
+
 
 /*.box2 {
     position: absolute;

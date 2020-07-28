@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#755b89, #243b55, #0b2038);
+}
+
+
+.header h1 {
+  top: 3%;
+  position: absolute;
+  width: 491px;
+  height: 20px;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  background: transparent;
+  margin-right: 500px;
+  margin-left: 400px;
+} 
+
+
+.svg2 *{
+  
+  padding :0px;
+  box-sizing: border-box;
+  text-align: right_;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 800px;
+  margin-top: 120px;
+}
+
+
+.box2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 700px;
+  height: 400px;
+  padding: 40px;
+  align-items: left;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  background: linear-gradient(#755b89, rgba(0, 0, 0, 0.5));
+}
+
+.box2 input[type="text"] {
+  position: absolute;
+  padding: 0px;
+  width: 620px;
+  height: 270px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: left;
+  /*margin-right: 100px;
+  margin-left: 10px;
+  display: inline-block;*/
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), #ffffff;
+}
+
+
+.box2 label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+ 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  color: white;
+  text-align: center;
+}
