@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect
 from .models import text
 
 def results(request):
-    return render(request,'result.html' )
+    return render(request,'results.html' )
 
 def index(request):
     return render(request,'tool.html')
