@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8742c2c3-6bd8-4fa7-b707-0d4d24dc17bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkerista/checker/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../checkerista/checker/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checkerista/checker/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../checkerista/checker/templates/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +171,7 @@
       <updated>1593850887558</updated>
       <workItem from="1595135675973" duration="9094000" />
       <workItem from="1595621348068" duration="977000" />
+      <workItem from="1595713255635" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;testing checker&quot;">
       <created>1595166109265</created>

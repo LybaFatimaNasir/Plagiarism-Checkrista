@@ -1,12 +1,53 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Result</title>
+    <title> PLAGIARISM CHECKRISTA</title>
+    <link rel="stylesheet"type="text/css" href="{%static 'css/main.css'%}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 </head>
+
 <body>
-<h1>
-    RESULT OF PLAGIARISM
-</h1>
+
+<div class="header">
+  <h1>  PLAGIARISM CHECKERISTA </h1>
+</div>
+
+<div class="header2">
+<h2> RESULT OF PLAGIARISM </h2><br>
+</div>
+
+
+<form action="/addtext/" method="GET" enctype="multipart/form-data"> {% csrf_token %}
+
+
+  <div class="box">
+
+
+      
+        <input type="text" autocomplete="off" placeholder="enter your text here" name =" Content"/>
+       <!-- <input type ="text"  placeholder="enter your text here" name = "Cotent"/><br> ->
+       <!- <input type="url"  placeholder="insert url" name="Content"/>
+        <input type="url"  placeholder="insert url" name="Content"/><br>
+         <input type="submit" name="ADD"/>
+      <a href = "/result">Result Page</a>-->
+   </div>
+
+
 </body>
+
 </html>
+
+       <!-- action="/addtext/" method="post"> {% csrf_token %}
+    <input type="text" name="Content"/>
+    <input type="submit" name="ADD"/>
+<div class="stars"></div>
+-->
+<!-- <h3> Enter url here </h3>
+<form action="/addtext/" method="post"> {% csrf_token %}
+    <input type="url" name="Content"/>
+      <input type="submit" name="ADD"/>
+</form> -->
