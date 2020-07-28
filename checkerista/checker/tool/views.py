@@ -15,7 +15,8 @@ def addText(request):
         newItem = "Guest"
     return HttpResponseRedirect('/tool/' )
 
-#newItem= text(Content=c)
+
+
 #def getData(request): 
     # dictionary for initial data with  
     # field names as keys 
