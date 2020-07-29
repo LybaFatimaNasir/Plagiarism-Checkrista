@@ -4,13 +4,22 @@ from django.http import HttpResponseRedirect
 from .models import text
 
 def results(request):
-    return render(request,'results.html' )
+
+    objCount = text.objects.all() #count of all  the objects present
+    
+    stu = {
+        'all_Is' : objCount
+    }
+
+
+
+    return render(request,'results.html', stu)
+
+    #{'res' : stu}
+
 
 def index(request):
     return render(request,'tool.html')
-
-#def result(request):
-    #return render(request,'result.html')
 
 def addText(request):
     try:
@@ -19,6 +28,29 @@ def addText(request):
     except KeyError:
         newItem = "Guest"
     return HttpResponseRedirect('/tool/' )
+
+
+##########
+
+
+
+
+
+
+
+
+ #yourData= {'lastcar':  lastText}
+
+
+    #temp = [None] * objCount #declare temporary array
+    #for i in objCount
+     #   temp[i]=all_obj[i].Content #storing all objects in array
+
+
+ # def dectectingPlagiarism(request):
+
+   
+          
 
    # context["dataset"] = text.objects.all() 
     
