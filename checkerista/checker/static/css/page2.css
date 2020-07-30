@@ -57,21 +57,30 @@ body {
   background: linear-gradient(#755b89, rgba(0, 0, 0, 0.5));
 }
 
-.box2 input[type="text"] {
-  position: absolute;
-  padding: 0px;
-  width: 620px;
-  height: 270px;
-  border-radius: 20px;
-  text-align: center;
-  align-items: left;
-  /*margin-right: 100px;
-  margin-left: 10px;
-  display: inline-block;*/
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), #ffffff;
-}
+.box2  table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+.box2  tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+  .box2  th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+  .box2  td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
 
 
 .box2 label {
