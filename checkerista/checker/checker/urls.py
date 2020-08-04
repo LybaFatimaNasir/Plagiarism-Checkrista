@@ -19,7 +19,8 @@ from django.urls import path
 from django.urls import include, path
 from tool.views import addText
 
-
+def trigger_error(request):
+    division_by_zero = 1/0
 
 urlpatterns = [
 
@@ -27,5 +28,6 @@ urlpatterns = [
     path('tool/', include('tool.urls')),
     path('admin/', admin.site.urls),
     path('results/', include('tool.urls')),
+    path('sentry-debug/',trigger_error),
 ]
 
