@@ -11,11 +11,13 @@ def results(request):
         'all_Is' : objCount
     }
 
-
-
     return render(request,'results.html', stu)
-
+    #for p in text.objects.raw('Select * from tool_text'):
+     #print (p)
     #{'res' : stu}
+    #return render (request,'result.html')
+
+
 
 
 def index(request):
