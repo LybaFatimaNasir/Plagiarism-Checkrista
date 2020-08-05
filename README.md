@@ -33,19 +33,19 @@ For this project to run you need to have
  
  4. Activating virtual environment where our **Django** will be installed.
  
- ![Github image](/images/activating .env.PNG)
+ ![Github image](/images/activating.env.PNG)
  
  The ``\.env>Scripts\activate.bat`` will activate the virtual environment ``(.env) `` this before whole path shows we are in the virtual environment.
  
  5. Now installing Django 
  
- ![Github image](/images/django installation.PNG)
+ ![Github image](/images/djangoInstallation.PNG)
  
  The ``py -m pip install django`` has installed the django in the virtual environment.
  
  If needeed pip to be upgraded so that the latest version be used we need to
  
- ![Github image](/images/pip upgradation.PNG)
+ ![Github image](/images/pipUpgradation.PNG)
  
  The ``python -m pip install --upgrade pip`` will upgrade version in your virtual environment.
  
@@ -60,24 +60,24 @@ For this project to run you need to have
    
    Now run the server 
    
-   ![Github images](/images/running server.PNG)
+   ![Github images](/images/runningServer.PNG)
    
    The ``python manage.py runserver`` will run server
    
    7. Copy the url as shown above and paste it in the chrome and write it as follow
    
-   ![Github Image](/image/url copied.PNG)
+   ![Github Image](/image/urlCopied.PNG)
    
    write it as ``http://127.0.0.1:8000/tool/`` to make the url run 
    
    8. The following page will be displayed
    
-   ![Github image](/image/page 1.PNG)
+   ![Github image](/image/page1.PNG)
    
    Write your text in the box given.
    and click on the ViewResult to display the result page as follow
    
-   ![Github image](/image/result page.PNG)
+   ![Github image](/image/resultPage.PNG)
    
 
   
