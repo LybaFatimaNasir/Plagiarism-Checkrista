@@ -1,6 +1,6 @@
 # Correctness
 
-## CHECKER AND LCS
+### CHECKER AND LCS function
 ### INDUCTIVE HYPOTHESIS: 
 The algorithm computes C[X ,Y] correctly for all (x, y) < (i, j). (C[X, Y] is
 computed before C[i, j].) FOR LCS:
