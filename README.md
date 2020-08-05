@@ -29,7 +29,7 @@ For this project to run you need to have
 
 ![Github image](/images/.env.PNG)
  
- This ``py -m venv .env`` create virtual environment .env is the folder containing virtual environment you can name it as you want.
+ This ``py -m venv .env`` create virtual environment .env is the folder containing virtual environment you can name it as you want Here the Project folder is used to just demonstrate how to install django Use  your own folder location .
  
  4. Activating virtual environment where our **Django** will be installed.
  
@@ -78,6 +78,9 @@ For this project to run you need to have
    and click on the ViewResult to display the result page as follow
    
    ![Github image](/images/resultPage.PNG)
+   
+   
+   >Note: All the django installations are done in the virtual environment locally just fir the project not on the entire system globally   and  If you ran into some while running server want to run again first **CTrL+C** to break through the previous one then again run the server as explained above .
    
 ## 🖥 Environment
 
