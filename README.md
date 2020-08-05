@@ -99,3 +99,6 @@ For this project to run you need to have
 
   
   
+ ## 🔑 LICENSE
+ 
+ MIT
