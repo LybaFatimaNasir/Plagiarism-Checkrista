@@ -93,7 +93,7 @@ For this project to run you need to have
 
 
 
-|**Sr.no** |**Languages/Framework/odules** |**Version** |**Reason**|
+|**Sr.no** |**Languages/Framework/Modules** |**Version** |**Reason**|
 ----------|--------------|------------|----------
 |1.        |Python3       | 3.8.2      |Python is considered a very easy yet very powerful programming language.|
 |2.        |Django       | 3.0.8     |Django the open source web framework 100% written in python. Provides many facilities in the development process.|
