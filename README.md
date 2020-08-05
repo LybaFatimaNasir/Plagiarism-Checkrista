@@ -79,6 +79,20 @@ For this project to run you need to have
    
    ![Github image](/images/resultPage.PNG)
    
+## 🖥 Environment
+
+**Sr.no** |**Softwares/IDEs** |**Version** |**Reason**
+----------|--------------|------------|----------
+1.        |Windows       | 10.0.18363 |Default OS on laptop
+2.        |Vs Code       | 1.47.3     |Vs Code is very easy to use
+3.        |PyCharm       | 192.6817.19|PyCharm is the best editor for python programs.
+4.        |              |            |
+
+**Sr.no** |**Languages** |**Version** |**Reason**
+----------|--------------|------------|----------
+1.        |Python3       | 3.8.2      |Python is considered a very easy yet very powerful programming language.
+2.        |Django       | 3.0.8     |Django the open source web framework 100% written in python. Provides many facilities in the development process.
+3.        |db.sqllite3      |        |
 
   
   
