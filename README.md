@@ -33,26 +33,26 @@ For this project to run you need to have
  
  4. Activating virtual environment where our **Django** will be installed.
  
- ![Github image](/images/ activating.env.PNG)
+ ![Github image](/images/activating.env.PNG)
  
  The ``\.env>Scripts\activate.bat`` will activate the virtual environment ``(.env) `` this before whole path shows we are in the virtual environment.
  
  5. Now installing Django 
  
- ![Github image](/images/ django installation.PNG)
+ ![Github image](/images/django installation.PNG)
  
  The ``py -m pip install django`` has installed the django in the virtual environment.
  
  If needeed pip to be upgraded so that the latest version be used we need to
  
- ![Github image](/images/ pip upgradtion.PNG)
+ ![Github image](/images/pip upgradtion.PNG)
  
  The ``python -m pip install --upgrade pip`` will upgrade version in your virtual environment.
  
  6. Now we are focused on running the server so that we can use the application
   - First exit command line and reopen it then move to the folder where **manage.py** file resides in our case **checker** 
   
-  ![Github image](images/ checker.PNG)
+  ![Github image](images/checker.PNG)
   
   
   
