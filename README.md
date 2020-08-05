@@ -1,4 +1,4 @@
-# PLAGIARISM CHECKERSITA USING PYTHON AND DJANGO
+# 🔎🧾 PLAGIARISM CHECKERSITA
 
 ##                                                      Django:
 
