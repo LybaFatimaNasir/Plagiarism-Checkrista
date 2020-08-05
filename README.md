@@ -66,18 +66,18 @@ For this project to run you need to have
    
    7. Copy the url as shown above and paste it in the chrome and write it as follow
    
-   ![Github Image](/image/urlCopied.PNG)
+   ![Github Image](/images/urlCopied.PNG)
    
    write it as ``http://127.0.0.1:8000/tool/`` to make the url run 
    
    8. The following page will be displayed
    
-   ![Github image](/image/page1.PNG)
+   ![Github image](/images/page1.PNG)
    
    Write your text in the box given.
    and click on the ViewResult to display the result page as follow
    
-   ![Github image](/image/resultPage.PNG)
+   ![Github image](/images/resultPage.PNG)
    
 
   
