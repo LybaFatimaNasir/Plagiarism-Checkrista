@@ -19,8 +19,11 @@ For this project to run you need to have
 ##  🎩 INSTALLATION
 
 1. For Installing Python [Phyton installation](https://www.python.org/downloads/) it will download latest version of python on your OS.
-2. For Django first we need to create virtual environment but before this we need to bring all this repo to your local computer.
+2. For Django first we need to create virtual environment but before this we need to clone this repo to your local computer.
 
 ##  🏗 Setup
 
-1. 
+1. Clone the code 
+2. Open Command Prompt and move to folder where Project is being cloned.
+3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista
+
