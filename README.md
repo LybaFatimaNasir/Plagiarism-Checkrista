@@ -21,9 +21,64 @@ For this project to run you need to have
 1. For Installing Python [Phyton installation](https://www.python.org/downloads/) it will download latest version of python on your OS.
 2. For Django first we need to create virtual environment but before this we need to clone this repo to your local computer.
 
-##  🏗 Setup
+##  🏗 SETUP
 
 1. Clone the code 
 2. Open Command Prompt and move to folder where Project is being cloned.
-3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista
+3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista**
 
+![Github image](/images/.env.PNG)
+ 
+ This ``py -m venv .env`` create virtual environment .env is the folder containing virtual environment you can name it as you want.
+ 
+ 4. Activating virtual environment where our **Django** will be installed.
+ 
+ ![Github image](/images/activating .env.PNG)
+ 
+ The ``\.env>Scripts\activate.bat`` will activate the virtual environment ``(.env) `` this before whole path shows we are in the virtual environment.
+ 
+ 5. Now installing Django 
+ 
+ ![Github image](/images/django installation.PNG)
+ 
+ The ``py -m pip install django`` has installed the django in the virtual environment.
+ 
+ If needeed pip to be upgraded so that the latest version be used we need to
+ 
+ ![Github image](/images/pip upgradation.PNG)
+ 
+ The ``python -m pip install --upgrade pip`` will upgrade version in your virtual environment.
+ 
+ 6. Now we are focused on running the server so that we can use the application
+  - First exit command line and reopen it then move to the folder **checkrista** and again activate the virtual environment  
+  
+  ![Github image](/images/activation.PNG)
+  
+   and then move where **manage.py** file resides in our case **checker** 
+   
+   ![Github image](images/checker.PNG)
+   
+   Now run the server 
+   
+   ![Github images](/images/running server.PNG)
+   
+   The ``python manage.py runserver`` will run server
+   
+   7. Copy the url as shown above and paste it in the chrome and write it as follow
+   
+   ![Github Image](/image/url copied.PNG)
+   
+   write it as ``http://127.0.0.1:8000/tool/`` to make the url run 
+   
+   8. The following page will be displayed
+   
+   ![Github image](/image/page 1.PNG)
+   
+   Write your text in the box given.
+   and click on the ViewResult to display the result page as follow
+   
+   ![Github image](/image/result page.PNG)
+   
+
+  
+  
