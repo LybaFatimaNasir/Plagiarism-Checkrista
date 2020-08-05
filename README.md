@@ -21,9 +21,38 @@ For this project to run you need to have
 1. For Installing Python [Phyton installation](https://www.python.org/downloads/) it will download latest version of python on your OS.
 2. For Django first we need to create virtual environment but before this we need to clone this repo to your local computer.
 
-##  🏗 Setup
+##  🏗 SETUP
 
 1. Clone the code 
 2. Open Command Prompt and move to folder where Project is being cloned.
-3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista
+3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista**
 
+![Github image](/images/.env.PNG)
+ 
+ This ``py -m venv .env`` create virtual environment .env is the folder containing virtual environment you can name it as you want.
+ 
+ 4. Activating virtual environment where our **Django** will be installed.
+ 
+ ![Github image](/image/activating.env.PNG)
+ 
+ The ``\.env>Scripts\activate.bat`` will activate the virtual environment ``(.env) `` this before whole path shows we are in the virtual environment.
+ 
+ 5. Now installing Django 
+ 
+ ![Github image](/image/django installation.PNG)
+ 
+ The ``py -m pip install django`` has installed the django in the virtual environment.
+ 
+ If needeed pip to be upgraded so that the latest version be used we need to
+ 
+ ![Github image](/image/pip upgradtion.PNG)
+ 
+ The ``python -m pip install --upgrade pip`` will upgrade version in your virtual environment.
+ 
+ 6. Now we are focused on running the server so that we can use the application
+  - First exit command line and reopen it then move to the folder where **manage.py** file resides in our case **checker** 
+  
+  ![Github image](image/checker.PNG)
+  
+  
+  
