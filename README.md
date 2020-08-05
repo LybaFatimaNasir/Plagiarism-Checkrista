@@ -86,13 +86,13 @@ For this project to run you need to have
 |1.        |Windows       | 10.0.18363 |Default OS on laptop|
 |2.        |Vs Code       | 1.47.3     |Vs Code is very easy to use|
 |3.        |PyCharm       | 192.6817.19|PyCharm is the best editor for python programs.|
-|4.        |              |            |
+|4.        |db.sqllite3   |  3.28.0    |lightweight database server comes built in with the django installation|
 
-|**Sr.no** |**Languages** |**Version** |**Reason**|
+|**Sr.no** |**Languages/Framework/odules** |**Version** |**Reason**|
 ----------|--------------|------------|----------
 |1.        |Python3       | 3.8.2      |Python is considered a very easy yet very powerful programming language.|
 |2.        |Django       | 3.0.8     |Django the open source web framework 100% written in python. Provides many facilities in the development process.|
-|3.        |db.sqllite3      |        |lightweight database comes built in with the django installation|
+|3.        |Pip    |    20.2.1    |   The Package manager, Most of the python distributions comes with pip installled    |
 
   
   
