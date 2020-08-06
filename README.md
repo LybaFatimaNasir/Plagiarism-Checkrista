@@ -25,7 +25,7 @@ For this project to run you need to have
 
 1. Clone the code 
 2. Open Command Prompt and move to folder where Project is being cloned.
-3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista**
+3. Now creating virtual environment close to the project folder for this case **CS311S20PID02 >> Checkrista** if your local computer does not contain .env first perform 4 step to check whether virtual environment already exists or not because it is dependent on the machine otherwise start with this step by first creating virtual environment. 
 
 ![Github image](/images/.env.PNG)
  
