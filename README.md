@@ -58,6 +58,9 @@ For this project to run you need to have
    
    ![Github image](images/checker.PNG)
    
+   There is a django package **sentry-sdk** I installed because this is a must-have tool for any Django project as it’s key that we stay informed about all the code-based issues in the application. But it is supposed to be downloaded on your system too using ``$ pip install --upgrade sentry-sdk`` its configuration is already added.
+
+   
    Now run the server 
    
    ![Github images](/images/runningServer.PNG)
