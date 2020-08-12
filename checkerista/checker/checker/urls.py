@@ -17,17 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include, path
-from tool.views import addText
+# from tool.views import addText
 
 def trigger_error(request):
     division_by_zero = 1/0
 
 urlpatterns = [
 
-    path('addtext/', addText),
-    path('tool/', include('tool.urls')),
+    #  path('addtext/', addText),
+    path('', include('tool.urls')),
     path('admin/', admin.site.urls),
-    path('results/', include('tool.urls')),
+    # path('results/',views.results ),
     path('sentry-debug/',trigger_error),
 ]
 
