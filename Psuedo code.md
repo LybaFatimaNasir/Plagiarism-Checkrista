@@ -1,6 +1,6 @@
 
 # Plagiarism-Checkrista
-## Plagiarism checking tool 
+### Plagiarism checking tool 
 ### Psuedo Code
 ```
 function Checker(C[0...m,0...n],x[1...m],Y[1...n],i,j)
