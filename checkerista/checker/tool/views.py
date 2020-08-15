@@ -5,13 +5,17 @@ from .models import text
 
 def results(request):
 
-    objCount = text.objects.all() #count of all  the objects present
+    objCount = text.objects.all() #all  the objects present
     
     stu = {
         'all_Is' : objCount
     }
 
+ 
 
+        
+
+    
 
     return render(request,'results.html', stu)
 
